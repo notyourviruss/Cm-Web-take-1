@@ -1,5 +1,4 @@
 function showmega(event) {
-    const ag;
     const getmega = document.getElementById('mega-menu');
     const getheader = document.getElementById('header');
     const gethitbox = document.getElementById('course-button');
