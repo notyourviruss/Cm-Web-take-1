@@ -6,7 +6,7 @@
     
 }
 .hero-left{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -14,6 +14,7 @@
     color: var(--primary-color);
     font-family: var(--primary-font);
     padding: 32px 0px;
+    
 }   
 .hero-text-1{
     display: block;
@@ -25,11 +26,12 @@
     display: block;
     font-size: var(--primary-font-size);
     margin: 16px 0px;
+    min-width: 50%;
 }
 .hero-right{
     width: 40%;
     background-color: var(--primary-color);
-    min-height: 500px;
+    min-height: 60vh;
     position: relative;
 }
 .hero-right::before{
