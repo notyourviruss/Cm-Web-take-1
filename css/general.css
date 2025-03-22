@@ -3,6 +3,7 @@
     --secondary-color: #15142c;
     --primary-font: "K2D";
     --primary-font-size: 18px;
+
 }
 
 * {
@@ -12,7 +13,7 @@
 
 body {
     padding-top: 128px;
-    background-color: #15142c;
+    background-color: var(--secondary-color)
 }
 
 .container {
@@ -20,26 +21,14 @@ body {
     margin: 0 auto;
 }
 
-.btn {
-    padding: 0.75em 1em;
-    border-radius: 32px;
-    background-color: #97f400;
-    border: 1px solid #15142c38;
-    font-weight: 500;
-    font-family: var(--primary-font);
-}
+
 .half-border{
     display: block;
     width: 50%;
     height: 1px;
-    background-color: var(--primary-color);
+    background-color: #d9d9d999;
     margin: 32px auto;
     
-}
-.menu{
-    width: 400px;
-    height: 600px;
-    background-color: white;
 }
 
 
