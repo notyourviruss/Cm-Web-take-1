@@ -1,0 +1,52 @@
+.hero-wrapper{
+    line-height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    
+}
+.hero-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    padding: 32px 0px;
+}   
+.hero-text-1{
+    display: block;
+    font-size: 48px;
+    margin: 16px 0px;
+    
+}
+.hero-text-2{
+    display: block;
+    font-size: var(--primary-font-size);
+    margin: 16px 0px;
+}
+.hero-right{
+    width: 40%;
+    background-color: var(--primary-color);
+    min-height: 500px;
+    position: relative;
+}
+.hero-right::before{
+    content: '';
+    background-color: #d9d9d98f ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 3%;
+    left: 3%;
+    z-index: -1;
+}
+
+
+
+
+
+.enroll-btn{
+    font-size: var(--primary-font-size);
+}
