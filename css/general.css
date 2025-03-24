@@ -12,6 +12,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 300vh;
     padding-top: 128px;
     background-color: var(--secondary-color)
 }
@@ -31,6 +34,9 @@ body {
     
 }
 
+main{
+    flex: 1;
+}
 
 @media(max-width : 768px){
     body{
