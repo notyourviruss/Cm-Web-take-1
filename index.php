@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+include_once("connection.php"); ?>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,10 +18,12 @@
   <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/home.css" />
   <link rel="stylesheet" href="css/footer.css" />
+
 </head>
 
 <body>
-  <header id="header-placeholder"></header>
+
+<?php include("components/header.php"); ?>
 
   <main>
     <section class="hero-section">
@@ -47,10 +50,42 @@
       <div class="container">
 
         <span class="section1-heading">
-          What we offer
+          Apply Now!
         </span>
-      </div>
+        <div class="form-container">
+          <form method="post">
+            <input name="first-name" placeholder="first-name" type="text">
+            <input name="last-name" placeholder="last-name" type="text">
+            <input name="age"  placeholder="age" type="number">
+            <input name="email"  placeholder="email" type="email">
 
+            <button name="submit" type="submit">Submit</button>
+          </form>
+        </div>
+
+
+      </div>                                                                        
+    <?php
+    if(isset($_POST["submit"])) {
+      $first_name = $_POST["first-name"];
+      $last_name = $_POST["last-name"];
+      $age = $_POST["age"];
+      $email = $_POST["email"]; 
+
+      $query = "INSERT INTO students(first_name, last_name, age, email) VALUES ('$first_name','$last_name','$age','$email')";
+
+      $insert = mysqli_query($conn, $query) or die(mysqli_error($conn));  
+
+      if($insert) { 
+          echo "insert";
+      } else {  
+      echo "not";
+      }
+
+    }
+    
+    
+    ?>
     </section>
 
 
@@ -61,7 +96,7 @@
     <div class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          
+
 
         </div>
       </div>

@@ -2,7 +2,8 @@ function showmega(event) {
     const getmega = document.getElementById('mega-menu');
     const getheader = document.getElementById('header');
     const gethitbox = document.getElementById('course-button');
-    if(event.type === "mouseover"){   
+    if(event.type === "mouseover"){    
+        
         getmega.classList.add('show')
         getheader.classList.add('mega-menu-shown')
         gethitbox.classList.add('course-button')
@@ -13,8 +14,3 @@ function showmega(event) {
         gethitbox.classList.remove('course-button')
     }
 }
-
-fetch('components/header.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('header-placeholder').innerHTML = data)
-        .catch(error => console.error('Error loading header:', error));
