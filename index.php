@@ -15,7 +15,6 @@ include_once("connection.php"); ?>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/general.css" />
-  <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/home.css" />
   <link rel="stylesheet" href="css/footer.css" />
 
@@ -66,25 +65,25 @@ include_once("connection.php"); ?>
 
       </div>                                                                        
     <?php
-    if(isset($_POST["submit"])) {
-      $first_name = $_POST["first-name"];
-      $last_name = $_POST["last-name"];
-      $age = $_POST["age"];
-      $email = $_POST["email"]; 
+    if (isset($_POST["submit"])) {
+        $first_name = $_POST["first-name"];
+        $last_name = $_POST["last-name"];
+        $age = $_POST["age"];
+        $email = $_POST["email"];
 
-      $query = "INSERT INTO students(first_name, last_name, age, email) VALUES ('$first_name','$last_name','$age','$email')";
+        $query = "INSERT INTO students(first_name, last_name, age, email) VALUES ('$first_name','$last_name','$age','$email')";
 
-      $insert = mysqli_query($conn, $query) or die(mysqli_error($conn));  
+        $insert = mysqli_query($conn, $query) or die(mysqli_error($conn));
 
-      if($insert) { 
-          echo "insert";
-      } else {  
-      echo "not";
-      }
+        if ($insert) {
+            echo "insert";
+        } else {
+            echo "not";
+        }
 
     }
-    
-    
+
+
     ?>
     </section>
 

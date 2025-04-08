@@ -1,4 +1,7 @@
-    <div id="header" class="header">
+   <head>
+   <link rel="stylesheet" href="css/header.css" />
+   </head>
+   <div id="header" class="header">
       <div class="branding">
         <div class="brand-logo">
           <svg xmlns="http://www.w3.org/2000/svg" width="58%" id="Layer_1" data-name="Layer 1"
@@ -135,7 +138,7 @@
         <ul class="navbar hideonmobile">
           <li><a href="">Home</a></li>
           <li id="course-button" class="" onmouseover="showmega(event)" onmouseleave="showmega(event)">
-            <a href="">Courses</a>
+            <a href="./courses.php">Courses</a>
             <div style="display: none" id="mega-menu">
               <div class="mega-menu-internal">
                 <div class="courses">
