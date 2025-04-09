@@ -26,7 +26,7 @@
             <div class="courses-grid">
                 <div class="courses-grid-wrapper">
                     <div class="course-content">
-                        <img src="" alt="">
+                        <img src="assets/web.png" alt="">
                         <div class="course-name">
                             <span>Web Development</span>
                         </div>
@@ -38,7 +38,7 @@
                         <div class="course-tech"></div>
                     </div>
                     <div class="course-content">
-                        <img src="" alt="">
+                        <img src="assets/web.png" alt="">
                         <div class="course-name">
                             <span>Web Development</span>
                         </div>
@@ -50,7 +50,7 @@
                         <div class="course-tech"></div>
                     </div>
                     <div class="course-content">
-                        <img src="" alt="">
+                        <img src="assets/web.png" alt="">
                         <div class="course-name">
                             <span>Web Development</span>
                         </div>
@@ -62,7 +62,103 @@
                         <div class="course-tech"></div>
                     </div>
                     <div class="course-content">
-                        <img src="" alt="">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
+                        <div class="course-name">
+                            <span>Web Development</span>
+                        </div>
+                        <div class="course-description">
+                            <span>
+                                Web Development is development of websites. Hehe
+                            </span>
+                        </div>
+                        <div class="course-tech"></div>
+                    </div>
+                    <div class="course-content">
+                        <img src="assets/web.png" alt="">
                         <div class="course-name">
                             <span>Web Development</span>
                         </div>

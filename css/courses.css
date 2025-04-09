@@ -1,4 +1,27 @@
-.courses-heading span{
-    color: white;
+.courses-heading {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.courses-heading span {
+    color: var(--primary-color);
     font-size: 48px;
+}
+
+.courses-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.courses-grid-wrapper span {
+    color: var(--primary-color);
+}
+
+.course-content {
+    height: 400px;
+}
+
+.course-content img {
+    width: 100%;
 }
